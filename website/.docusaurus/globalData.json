@@ -1,0 +1,43 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "welcome",
+          "docs": [
+            {
+              "id": "fronted",
+              "path": "/architecture/fronted",
+              "sidebar": "docs"
+            },
+            {
+              "id": "off-chain-voting",
+              "path": "/getting-started/off-chain-voting",
+              "sidebar": "docs"
+            },
+            {
+              "id": "pallets",
+              "path": "/architecture/pallets",
+              "sidebar": "docs"
+            },
+            {
+              "id": "preparation",
+              "path": "/getting-started/preparation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "welcome",
+              "path": "/",
+              "sidebar": "docs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

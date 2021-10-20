@@ -1,0 +1,21 @@
+{
+  "unversionedId": "preparation",
+  "id": "preparation",
+  "isDocsHomePage": false,
+  "title": "Preparation",
+  "description": "This chapter, we will guide you through a complete process of a Bounty flow. We assume that the reader already know how to use Polkadot Extension, this tutorial will use it to manage our accounts. If you don't have it, please install and learn about it before starting.",
+  "source": "@site/docs/preparation.md",
+  "slug": "/getting-started/preparation",
+  "permalink": "/getting-started/preparation",
+  "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/preparation.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Welcome",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Off Chain Voting",
+    "permalink": "/getting-started/off-chain-voting"
+  }
+}

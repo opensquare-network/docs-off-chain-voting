@@ -1,0 +1,181 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/yoshiyuki/WebstormProjects/docs-off-chain-voting/website/sidebars.js",
+          "docsDirPath": "/Users/yoshiyuki/WebstormProjects/docs-off-chain-voting/website/docs",
+          "mainDocId": "welcome",
+          "sidebars": {
+            "docs": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "welcome"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "preparation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "off-chain-voting"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Architecture",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "pallets"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fronted"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/architecture/fronted": "docs",
+            "/getting-started/off-chain-voting": "docs",
+            "/architecture/pallets": "docs",
+            "/getting-started/preparation": "docs",
+            "/": "docs"
+          },
+          "docs": [
+            {
+              "unversionedId": "fronted",
+              "id": "fronted",
+              "isDocsHomePage": false,
+              "title": "Fronted",
+              "description": "Code repositories",
+              "source": "@site/docs/fronted.md",
+              "slug": "/architecture/fronted",
+              "permalink": "/architecture/fronted",
+              "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/fronted.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Pallets",
+                "permalink": "/architecture/pallets"
+              }
+            },
+            {
+              "unversionedId": "off-chain-voting",
+              "id": "off-chain-voting",
+              "isDocsHomePage": false,
+              "title": "Off Chain Voting",
+              "description": "What is Off Chain Voting",
+              "source": "@site/docs/off-chain-voting.md",
+              "slug": "/getting-started/off-chain-voting",
+              "permalink": "/getting-started/off-chain-voting",
+              "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/off-chain-voting.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Preparation",
+                "permalink": "/getting-started/preparation"
+              },
+              "next": {
+                "title": "Pallets",
+                "permalink": "/architecture/pallets"
+              }
+            },
+            {
+              "unversionedId": "pallets",
+              "id": "pallets",
+              "isDocsHomePage": false,
+              "title": "Pallets",
+              "description": "Basic bounty workflow",
+              "source": "@site/docs/pallets.md",
+              "slug": "/architecture/pallets",
+              "permalink": "/architecture/pallets",
+              "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/pallets.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Off Chain Voting",
+                "permalink": "/getting-started/off-chain-voting"
+              },
+              "next": {
+                "title": "Fronted",
+                "permalink": "/architecture/fronted"
+              }
+            },
+            {
+              "unversionedId": "preparation",
+              "id": "preparation",
+              "isDocsHomePage": false,
+              "title": "Preparation",
+              "description": "This chapter, we will guide you through a complete process of a Bounty flow. We assume that the reader already know how to use Polkadot Extension, this tutorial will use it to manage our accounts. If you don't have it, please install and learn about it before starting.",
+              "source": "@site/docs/preparation.md",
+              "slug": "/getting-started/preparation",
+              "permalink": "/getting-started/preparation",
+              "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/preparation.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Welcome",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Off Chain Voting",
+                "permalink": "/getting-started/off-chain-voting"
+              }
+            },
+            {
+              "unversionedId": "welcome",
+              "id": "welcome",
+              "isDocsHomePage": false,
+              "title": "Welcome",
+              "description": "Welcome to OpenSquare, an open collaboration world.",
+              "source": "@site/docs/welcome.md",
+              "slug": "/",
+              "permalink": "/",
+              "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/welcome.md",
+              "version": "current",
+              "sidebar": "docs",
+              "next": {
+                "title": "Preparation",
+                "permalink": "/getting-started/preparation"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": null
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

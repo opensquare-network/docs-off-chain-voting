@@ -1,0 +1,17 @@
+{
+  "unversionedId": "fronted",
+  "id": "fronted",
+  "isDocsHomePage": false,
+  "title": "Fronted",
+  "description": "Code repositories",
+  "source": "@site/docs/fronted.md",
+  "slug": "/architecture/fronted",
+  "permalink": "/architecture/fronted",
+  "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/fronted.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Pallets",
+    "permalink": "/architecture/pallets"
+  }
+}
