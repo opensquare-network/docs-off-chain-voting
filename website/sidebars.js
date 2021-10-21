@@ -5,11 +5,13 @@ module.exports = {
     ],
     'Getting Started': [
       'preparation',
-      'off-chain-voting'
+      'space',
+      'create-a-proposal',
+      'vote-on-a-proposal',
     ],
-    Architecture: [
-      'pallets',
-      'fronted'
-    ]
+    // Architecture: [
+    //   'pallets',
+    //   'fronted'
+    // ]
   }
 };

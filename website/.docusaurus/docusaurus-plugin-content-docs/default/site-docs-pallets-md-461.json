@@ -8,14 +8,5 @@
   "slug": "/architecture/pallets",
   "permalink": "/architecture/pallets",
   "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/pallets.md",
-  "version": "current",
-  "sidebar": "docs",
-  "previous": {
-    "title": "Off Chain Voting",
-    "permalink": "/getting-started/off-chain-voting"
-  },
-  "next": {
-    "title": "Fronted",
-    "permalink": "/architecture/fronted"
-  }
+  "version": "current"
 }
