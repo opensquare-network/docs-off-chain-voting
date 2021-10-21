@@ -29,35 +29,28 @@
           },
           {
             "type": "link",
-            "label": "Off Chain Voting",
-            "href": "/getting-started/off-chain-voting"
-          }
-        ]
-      },
-      {
-        "collapsed": true,
-        "type": "category",
-        "label": "Architecture",
-        "items": [
-          {
-            "type": "link",
-            "label": "Pallets",
-            "href": "/architecture/pallets"
+            "label": "Space",
+            "href": "/getting-started/space"
           },
           {
             "type": "link",
-            "label": "Fronted",
-            "href": "/architecture/fronted"
+            "label": "Create a proposal",
+            "href": "/getting-started/create-a-proposal"
+          },
+          {
+            "type": "link",
+            "label": "Vote on a proposal",
+            "href": "/getting-started/vote-on-a-proposal"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/architecture/fronted": "docs",
-    "/getting-started/off-chain-voting": "docs",
-    "/architecture/pallets": "docs",
+    "/getting-started/create-a-proposal": "docs",
     "/getting-started/preparation": "docs",
+    "/getting-started/space": "docs",
+    "/getting-started/vote-on-a-proposal": "docs",
     "/": "docs"
   }
 }

@@ -11,23 +11,35 @@
           "mainDocId": "welcome",
           "docs": [
             {
-              "id": "fronted",
-              "path": "/architecture/fronted",
+              "id": "create-a-proposal",
+              "path": "/getting-started/create-a-proposal",
               "sidebar": "docs"
+            },
+            {
+              "id": "fronted",
+              "path": "/architecture/fronted"
             },
             {
               "id": "off-chain-voting",
-              "path": "/getting-started/off-chain-voting",
-              "sidebar": "docs"
+              "path": "/off-chain-voting"
             },
             {
               "id": "pallets",
-              "path": "/architecture/pallets",
-              "sidebar": "docs"
+              "path": "/architecture/pallets"
             },
             {
               "id": "preparation",
               "path": "/getting-started/preparation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "space",
+              "path": "/getting-started/space",
+              "sidebar": "docs"
+            },
+            {
+              "id": "vote-on-a-proposal",
+              "path": "/getting-started/vote-on-a-proposal",
               "sidebar": "docs"
             },
             {

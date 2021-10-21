@@ -35,35 +35,49 @@
                   },
                   {
                     "type": "doc",
-                    "id": "off-chain-voting"
-                  }
-                ]
-              },
-              {
-                "collapsed": true,
-                "type": "category",
-                "label": "Architecture",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "pallets"
+                    "id": "space"
                   },
                   {
                     "type": "doc",
-                    "id": "fronted"
+                    "id": "create-a-proposal"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "vote-on-a-proposal"
                   }
                 ]
               }
             ]
           },
           "permalinkToSidebar": {
-            "/architecture/fronted": "docs",
-            "/getting-started/off-chain-voting": "docs",
-            "/architecture/pallets": "docs",
+            "/getting-started/create-a-proposal": "docs",
             "/getting-started/preparation": "docs",
+            "/getting-started/space": "docs",
+            "/getting-started/vote-on-a-proposal": "docs",
             "/": "docs"
           },
           "docs": [
+            {
+              "unversionedId": "create-a-proposal",
+              "id": "create-a-proposal",
+              "isDocsHomePage": false,
+              "title": "Create a proposal",
+              "description": "1. Preparation",
+              "source": "@site/docs/create-a-proposal.md",
+              "slug": "/getting-started/create-a-proposal",
+              "permalink": "/getting-started/create-a-proposal",
+              "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/create-a-proposal.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Space",
+                "permalink": "/getting-started/space"
+              },
+              "next": {
+                "title": "Vote on a proposal",
+                "permalink": "/getting-started/vote-on-a-proposal"
+              }
+            },
             {
               "unversionedId": "fronted",
               "id": "fronted",
@@ -74,33 +88,19 @@
               "slug": "/architecture/fronted",
               "permalink": "/architecture/fronted",
               "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/fronted.md",
-              "version": "current",
-              "sidebar": "docs",
-              "previous": {
-                "title": "Pallets",
-                "permalink": "/architecture/pallets"
-              }
+              "version": "current"
             },
             {
               "unversionedId": "off-chain-voting",
               "id": "off-chain-voting",
               "isDocsHomePage": false,
-              "title": "Off Chain Voting",
-              "description": "What is Off Chain Voting",
+              "title": "off-chain-voting",
+              "description": "",
               "source": "@site/docs/off-chain-voting.md",
-              "slug": "/getting-started/off-chain-voting",
-              "permalink": "/getting-started/off-chain-voting",
+              "slug": "/off-chain-voting",
+              "permalink": "/off-chain-voting",
               "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/off-chain-voting.md",
-              "version": "current",
-              "sidebar": "docs",
-              "previous": {
-                "title": "Preparation",
-                "permalink": "/getting-started/preparation"
-              },
-              "next": {
-                "title": "Pallets",
-                "permalink": "/architecture/pallets"
-              }
+              "version": "current"
             },
             {
               "unversionedId": "pallets",
@@ -112,16 +112,7 @@
               "slug": "/architecture/pallets",
               "permalink": "/architecture/pallets",
               "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/pallets.md",
-              "version": "current",
-              "sidebar": "docs",
-              "previous": {
-                "title": "Off Chain Voting",
-                "permalink": "/getting-started/off-chain-voting"
-              },
-              "next": {
-                "title": "Fronted",
-                "permalink": "/architecture/fronted"
-              }
+              "version": "current"
             },
             {
               "unversionedId": "preparation",
@@ -140,8 +131,46 @@
                 "permalink": "/"
               },
               "next": {
-                "title": "Off Chain Voting",
-                "permalink": "/getting-started/off-chain-voting"
+                "title": "Space",
+                "permalink": "/getting-started/space"
+              }
+            },
+            {
+              "unversionedId": "space",
+              "id": "space",
+              "isDocsHomePage": false,
+              "title": "Space",
+              "description": "Definition of Space",
+              "source": "@site/docs/space.md",
+              "slug": "/getting-started/space",
+              "permalink": "/getting-started/space",
+              "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/space.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Preparation",
+                "permalink": "/getting-started/preparation"
+              },
+              "next": {
+                "title": "Create a proposal",
+                "permalink": "/getting-started/create-a-proposal"
+              }
+            },
+            {
+              "unversionedId": "vote-on-a-proposal",
+              "id": "vote-on-a-proposal",
+              "isDocsHomePage": false,
+              "title": "Vote on a proposal",
+              "description": "1. Preparation",
+              "source": "@site/docs/vote-on-a-proposal.md",
+              "slug": "/getting-started/vote-on-a-proposal",
+              "permalink": "/getting-started/vote-on-a-proposal",
+              "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/vote-on-a-proposal.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Create a proposal",
+                "permalink": "/getting-started/create-a-proposal"
               }
             },
             {

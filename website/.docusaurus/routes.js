@@ -39,7 +39,7 @@ export default [
 },
 {
   path: '/',
-  component: ComponentCreator('/','c59'),
+  component: ComponentCreator('/','2e8'),
   
   routes: [
 {
@@ -58,13 +58,28 @@ export default [
   exact: true,
 },
 {
-  path: '/getting-started/off-chain-voting',
-  component: ComponentCreator('/getting-started/off-chain-voting','a20'),
+  path: '/getting-started/create-a-proposal',
+  component: ComponentCreator('/getting-started/create-a-proposal','ff9'),
   exact: true,
 },
 {
   path: '/getting-started/preparation',
   component: ComponentCreator('/getting-started/preparation','8cc'),
+  exact: true,
+},
+{
+  path: '/getting-started/space',
+  component: ComponentCreator('/getting-started/space','03d'),
+  exact: true,
+},
+{
+  path: '/getting-started/vote-on-a-proposal',
+  component: ComponentCreator('/getting-started/vote-on-a-proposal','c52'),
+  exact: true,
+},
+{
+  path: '/off-chain-voting',
+  component: ComponentCreator('/off-chain-voting','bdc'),
   exact: true,
 },
 ]

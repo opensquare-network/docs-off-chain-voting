@@ -2,20 +2,11 @@
   "unversionedId": "off-chain-voting",
   "id": "off-chain-voting",
   "isDocsHomePage": false,
-  "title": "Off Chain Voting",
-  "description": "What is Off Chain Voting",
+  "title": "off-chain-voting",
+  "description": "",
   "source": "@site/docs/off-chain-voting.md",
-  "slug": "/getting-started/off-chain-voting",
-  "permalink": "/getting-started/off-chain-voting",
+  "slug": "/off-chain-voting",
+  "permalink": "/off-chain-voting",
   "editUrl": "https://github.com/opensquare-network/docs/tree/master/website/docs/off-chain-voting.md",
-  "version": "current",
-  "sidebar": "docs",
-  "previous": {
-    "title": "Preparation",
-    "permalink": "/getting-started/preparation"
-  },
-  "next": {
-    "title": "Pallets",
-    "permalink": "/architecture/pallets"
-  }
+  "version": "current"
 }
