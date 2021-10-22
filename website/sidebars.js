@@ -1,17 +1,23 @@
 module.exports = {
-  docs: {
-    Introduction: [
-      'welcome'
-    ],
-    'Getting Started': [
-      'preparation',
-      'space',
-      'create-a-proposal',
-      'vote-on-a-proposal',
-    ],
-    // Architecture: [
-    //   'pallets',
-    //   'fronted'
-    // ]
-  }
+  docs: [
+    {
+      type: 'category',
+      label: 'Introduction',
+      collapsed: false,
+      items: [
+        'welcome',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Getting Started',
+      collapsed: false,
+      items: [
+        'preparation',
+        'space',
+        'create-a-proposal',
+        'vote-on-a-proposal',
+      ],
+    },
+  ]
 };

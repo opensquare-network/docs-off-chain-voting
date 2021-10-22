@@ -5,14 +5,14 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   organizationName: 'opensquare-network',
   projectName: 'docs',
   themeConfig: {
     navbar: {
       logo: {
         alt: 'Opensquare Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -22,10 +22,10 @@ module.exports = {
         },
       ],
     },
-    footer: {
-      style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Opensquare, Inc. Built with Docusaurus.`,
-    },
+    // footer: {
+    //   style: 'dark',
+    //   copyright: `Copyright © ${new Date().getFullYear()} Opensquare, Inc. Built with Docusaurus.`,
+    // },
   },
   presets: [
     [
