@@ -17,6 +17,7 @@ module.exports = {
         'space',
         'create-a-proposal',
         'vote-on-a-proposal',
+        'strategies',
       ],
     },
   ]

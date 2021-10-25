@@ -27,7 +27,7 @@ Generally we can see the logical parts in following charts and how their works w
 - Dapp which interact with the OpenSquare chain.
 - Explorer which help view the blocks, extrinsics, events and other business data.
 
-![Architecture](/figure/os-architecture.png)
+![Architecture](../static/figure/os-architecture.png)
 
 
 ## Content server apis
