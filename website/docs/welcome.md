@@ -16,4 +16,4 @@ Off chain voting refers to governance systems where individual votes are not sub
 
 ## Is Off Chain Voting secured
 In token weighted voting schemes, users are prompted to sign messages with their wallet to vote, and the resulting data is stored via a decentralized file storage system such as IPFS.
-This storage mechanism significantly reduces risk of vote tampering, meanwhile, OpenSquare enacts the results on chain using admin privileges.
+This storage mechanism significantly reduces risk of vote tampering. 
