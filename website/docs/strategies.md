@@ -5,16 +5,13 @@ slug: /getting-started/strategies
 ---
 
 ## Definition
-A Strategy is way to calculate the result for a proposal.
+A Strategy is a result calculation method for one proposal.
 
-## Example strategy
-`quadratic-balance-of` is very common strategy for OpenSquare voting proposal.
-Under this strategy each vote weight will be considered as its square root of balance(On the proposal creation block height).
-It helps to get a [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution) result.
+## Current strategies
 
-## Other Common strategies
-`balance-of` is the other strategy commonly used. It simply takes voter's balance as vote weight.
-The majority of holders with the opinion wins.
+- balance-of: It simply takes a voter's balance as vote weight. The majority of holders with the opinion wins.
+- quadratic-balance-of: It takes the square root of a voter's balance as the vote weight. For example, 
+  if Alice with balance 100 vote, her weight is 10.
 
 ## More strategies
-Under development.
+Absolutely users will need more strategies. Will be actively developing new ones for different scenarios. Any suggestions, [contact us](mailto:yongfeng@opensquare.network).
