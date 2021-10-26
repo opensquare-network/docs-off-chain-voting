@@ -12,4 +12,4 @@ but projects will be able to create space for themselves soon. We will support:
 
 ![App home](../static/figure/voting-space.png)
 
-For para-chains who want to be onboard quickly, [contact Us](mailto:yongfeng@opensquare.network).
+For para-chains who want to be onboard quickly, [contact us](mailto:yongfeng@opensquare.network).
