@@ -34,7 +34,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/opensquare-network/docs/tree/master/website',
+            'https://github.com/opensquare-network/docs-off-chain-voting/tree/main/website',
           routeBasePath: '/'
         },
         theme: {
