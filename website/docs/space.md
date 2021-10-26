@@ -4,6 +4,12 @@ title: Space
 slug: /getting-started/space
 ---
 ## Definition of Space
-Space is a territory where a some particular chain/network to be governed.
-Members here to create proposals and vote for each other.
+A space is a place for one project to do off-chain voting. Currently, the spaces is predefined, 
+but projects will be able to create space for themselves soon. We will support:
+- Relay chains: Kusama, Polkadot.
+- Para chains: like Karura, Khala, etc.
+- Statemine/Statemint assets: like RMRK, etc.
+
 ![App home](../static/figure/voting-space.png)
+
+For para-chains who want to be onboard quickly, [contact Us](mailto:yongfeng@opensquare.network).
