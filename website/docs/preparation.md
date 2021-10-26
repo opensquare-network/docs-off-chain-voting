@@ -1,13 +1,14 @@
 ---
 id: preparation
-title: Preparation
+title: Account Preparation
 slug: /getting-started/preparation
 ---
 
-This chapter, we will guide you through a complete process of a Vote flow. We assume that the reader already know how to use [Polkadot Extension](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd), this tutorial will use it to manage our accounts. If you don't have it, please install and learn about it before starting.
+A key is required for decentralized voting. We assume that you have known [Polkadot Extension](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd) and installed it, while this tutorial will use it to manage your accounts. 
+If you don't have it, please install and learn about it before starting.
 
 ## Get Polkadot{.js} extension
-This browser extension manages accounts and allows the signing of transactions with those accounts. 
+This browser extension manages accounts and empowers users to sign transactions. 
 ![Extension Init](https://polkadot.js.org/extension/extension-overview.png)
 
 ## Create Account
@@ -18,6 +19,7 @@ Click the big plus button or select "Create new account" from the small plus ico
 You should back up these words as explained above. It is imperative to store the seed somewhere safe, secret, and secure.
 The next, you will be asked to set a name and a password for it.Then complete the account creation.
 
-## You are ready
+## Balance requirement
 
-Now, the preparatory work has been completed. You can start the Vote flow.
+Your account have to be alive before any voting. Either polkadot, kusama, karura and khala has a minimum existential deposit requirement to keep your account alive.
+So try to get some balance to your account.
